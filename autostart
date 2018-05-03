@@ -1,0 +1,8 @@
+ibus-daemon -d
+xrandr --output eDP-1 --mode 1920x1080
+feh --bg-scale ~/Pictures/back.jpg &
+tint2
+dunst &
+setxkbmap -layout jp
+xmodmap ~/.Xmodmap
+setxkbmap -layout jp
